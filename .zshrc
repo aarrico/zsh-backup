@@ -104,7 +104,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+
+
+
+# MISC STUFF
 eval "$(starship init zsh)"
 
 ssh-add ~/.ssh/github.com
@@ -118,6 +121,3 @@ if [ -d "$FNM_PATH" ]; then
   export PATH="/home/aarrico/.local/share/fnm:$PATH"
   eval "`fnm env`"
 fi
-
-alias zed="WAYLAND_DISPLAY='' zed --foreground"
-export ZED_ALLOW_EMULATED_GPU=1
